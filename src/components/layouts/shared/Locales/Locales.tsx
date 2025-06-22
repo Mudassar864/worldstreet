@@ -70,7 +70,7 @@ const LocalesBase = () => {
               className={cn(
                 "flex items-center px-4 py-2 cursor-pointer rounded-md transition-all duration-300 ease-in-out",
                 locale.code === i18n.language
-                  ? "bg-primary-500 text-white dark:bg-primary-400 dark:text-white"
+                  ? "bg-[#17161a] text-white dark:bg-primary-400 dark:text-white"
                   : "bg-muted-100 hover:bg-muted-200 dark:bg-muted-800 dark:hover:bg-muted-700 text-muted-700 dark:text-muted-200"
               )}
             >

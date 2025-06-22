@@ -74,7 +74,7 @@ const AffiliateDashboard: React.FC<Props> = ({ conditions, error }) => {
             className="group relative overflow-hidden p-5"
           >
             <div className="flex items-center gap-2">
-              <div className="mask mask-hexed flex h-16 w-16 items-center justify-center bg-muted-100 transition-colors duration-300 group-hover:bg-primary-500 dark:bg-muted-900 dark:group-hover:bg-primary-500">
+              <div className="mask mask-hexed flex h-16 w-16 items-center justify-center bg-muted-100 transition-colors duration-300 group-hover:bg-[#17161a] dark:bg-muted-900 dark:group-hover:bg-[#17161a]">
                 <div className="mask mask-hexed relative flex h-16 w-16 scale-95 items-center justify-center bg-white dark:bg-muted-950 text-muted-800 dark:text-muted-200">
                   {index + 1}
                 </div>

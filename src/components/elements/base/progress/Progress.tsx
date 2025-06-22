@@ -40,7 +40,7 @@ const Progress: FC<ProgressProps> = ({
     >
       <div
         className={`absolute left-0 top-0 h-full transition-all duration-300
-          ${color === "primary" ? "bg-primary-500" : ""}
+          ${color === "primary" ? "bg-[#17161a]" : ""}
           ${color === "info" ? "bg-info-500" : ""}
           ${color === "success" ? "bg-success-500" : ""}
           ${color === "warning" ? "bg-warning-500" : ""}

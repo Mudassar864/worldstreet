@@ -263,7 +263,7 @@ const ComboBox: FC<ComboBoxProps> = ({
                     }) => `relative flex cursor-default select-none items-center gap-2 p-2 transition-colors duration-300 
                       ${
                         active
-                          ? "bg-primary-500/10 text-primary-700 dark:bg-primary-500/20"
+                          ? "bg-[#17161a]/10 text-primary-700 dark:bg-[#17161a]/20"
                           : "text-muted-600 dark:text-muted-400"
                       }
                       ${shape === "rounded-sm" ? "rounded-md" : ""}

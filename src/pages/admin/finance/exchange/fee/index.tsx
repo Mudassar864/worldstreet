@@ -85,7 +85,7 @@ const ExchangeOrderFeesDashboard: React.FC = () => {
               size={"sm"}
               shape={"rounded-sm"}
               variant={"pastel"}
-              className="cursor-pointer hover:shadow-sm transition-all duration-300 ease-in-out hover:shadow-muted-300/30 dark:hover:shadow-muted-800/20 hover:bg-primary-500 hover:text-muted-100"
+              className="cursor-pointer hover:shadow-sm transition-all duration-300 ease-in-out hover:shadow-muted-300/30 dark:hover:shadow-muted-800/20 hover:bg-[#17161a] hover:text-muted-100"
               icon="mdi:refresh"
             />
           </Tooltip>

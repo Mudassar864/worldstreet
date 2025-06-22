@@ -27,7 +27,7 @@ const ProfileWidget: FC<ProfileWidgetProps> = ({
       <div
         className={`flex items-center justify-center py-10 ${
           type === "skewed"
-            ? "bg-primary-500"
+            ? "bg-[#17161a]"
             : "bg-muted-100 dark:bg-muted-800"
         }`}
       >

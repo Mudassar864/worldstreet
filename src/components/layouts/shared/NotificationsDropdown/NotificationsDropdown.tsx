@@ -28,13 +28,13 @@ const NotificationsDropdownBase = () => {
     <>
       <div className="group relative text-start">
         {hasNotifications && (
-          <span className="absolute right-0.5 top-0.5 z-2 block h-2 w-2 rounded-full bg-primary-500 "></span>
+          <span className="absolute right-0.5 top-0.5 z-2 block h-2 w-2 rounded-full bg-[#17161a] "></span>
         )}
         <button
           type="button"
           name="notificationsDropdownToggle"
           aria-label="Notifications dropdown"
-          className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-primary-500/10 dark:hover:bg-primary-500/20 rotate-0"
+          className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
           onClick={() => setIsPanelOpened(!isPanelOpened)}
         >
           <Icon

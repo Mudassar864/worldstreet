@@ -5,7 +5,7 @@ export const checkboxVariants = cva(
   {
     variants: {
       color: {
-        primary: "bg-primary-500 border-primary-500",
+        primary: "bg-[#17161a] border-primary-500",
         info: "bg-info-500 border-info-500",
         success: "bg-success-500 border-success-500",
         warning: "bg-warning-500 border-warning-500",

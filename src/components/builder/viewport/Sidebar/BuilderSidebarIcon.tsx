@@ -23,7 +23,7 @@ const BuilderSidebarIcon: FC<SidebarIconProps> = ({ icon, name }) => {
         <div
           className={`side-icon-inner mask mask-blob flex h-[35px] w-[35px] items-center justify-center transition-colors duration-300 ${
             sidebar === name
-              ? "bg-primary-500/10 dark:bg-primary-500/20"
+              ? "bg-[#17161a]/10 dark:bg-[#17161a]/20"
               : "bg-muted-200 dark:bg-muted-800"
           }`}
         >

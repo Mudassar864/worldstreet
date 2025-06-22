@@ -264,7 +264,7 @@ export default function InputFile(props: InputFileProps) {
                     />
                     <label
                       htmlFor={id}
-                      className={`mx-auto flex w-40 cursor-pointer items-center justify-center bg-primary-500 px-3 py-2 text-sm text-center font-normal text-white transition-colors duration-300 hover:bg-primary-400 active:bg-primary-500
+                      className={`mx-auto flex w-40 cursor-pointer items-center justify-center bg-[#17161a] px-3 py-2 text-sm text-center font-normal text-white transition-colors duration-300 hover:bg-primary-400 active:bg-[#17161a]
                       ${shape === "rounded-sm" ? "rounded-md" : ""}
                       ${shape === "smooth" ? "rounded-lg" : ""}
                       ${shape === "curved" ? "rounded-xl" : ""}

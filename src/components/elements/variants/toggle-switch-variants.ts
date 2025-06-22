@@ -5,7 +5,7 @@ export const toggleSwitchVariants = cva(
   {
     variants: {
       color: {
-        primary: "peer-checked:bg-primary-500 dark:peer-checked:bg-primary-700",
+        primary: "peer-checked:bg-[#17161a] dark:peer-checked:bg-primary-700",
         info: "peer-checked:bg-info-500 dark:peer-checked:bg-info-700",
         success: "peer-checked:bg-success-500 dark:peer-checked:bg-success-700",
         warning: "peer-checked:bg-warning-500 dark:peer-checked:bg-warning-700",

@@ -491,7 +491,7 @@ const FuturesMarketsBase = () => {
                   key={i}
                   className={`flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border-none  p-0 transition-all duration-300 ${
                     currentPage == page
-                      ? "bg-primary-500 text-white shadow-lg shadow-primary-500/20"
+                      ? "bg-[#17161a] text-white shadow-lg shadow-primary-500/20"
                       : "bg-transparent text-muted-500 hover:bg-muted-100 hover:text-muted-600 dark:hover:bg-muted-800 dark:hover:text-muted-100"
                   }`}
                   onClick={() => changePage(page)}

@@ -197,7 +197,7 @@ const P2pOffer: React.FC = () => {
             </div>
             <div className="h-1 bg-muted-200 dark:bg-muted-800 rounded-full">
               <div
-                className="h-1 bg-primary-500 dark:bg-primary-400 rounded-full"
+                className="h-1 bg-[#17161a] dark:bg-primary-400 rounded-full"
                 style={{ width: `${offerProgress}%` }}
               ></div>
             </div>

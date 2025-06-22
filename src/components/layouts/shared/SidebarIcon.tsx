@@ -96,7 +96,7 @@ const SidebarIcon: FC<SidebarIconProps> = ({
   const iconElement = (
     <div
       className={`side-icon-inner mask mask-blob flex h-[35px] w-[35px] items-center justify-center transition-colors duration-300 ${
-        activeSidebar === name ? "bg-primary-500/10 dark:bg-primary-500/20" : ""
+        activeSidebar === name ? "bg-[#17161a]/10 dark:bg-[#17161a]/20" : ""
       }`}
     >
       <Icon

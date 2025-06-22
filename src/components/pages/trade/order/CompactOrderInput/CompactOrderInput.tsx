@@ -177,7 +177,7 @@ const CompactOrderInputBase = ({ type }) => {
               >
                 <Icon
                   icon="mdi:plus"
-                  className="h-3 w-3 text-primary-500 cursor-pointer border border-primary-500 rounded-full hover:bg-primary-500 hover:text-white"
+                  className="h-3 w-3 text-primary-500 cursor-pointer border border-primary-500 rounded-full hover:bg-[#17161a] hover:text-white"
                 />
               </Link>
             </Tooltip>

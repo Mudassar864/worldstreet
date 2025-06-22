@@ -57,7 +57,7 @@ const Dropdown: FC<DropdownProps> = ({
     >
       {indicator ? (
         <span
-          className={`absolute right-0.5 top-0.5 z-2 block h-2 w-2 rounded-full bg-primary-500 ${indicatorClasses}`}
+          className={`absolute right-0.5 top-0.5 z-2 block h-2 w-2 rounded-full bg-[#17161a] ${indicatorClasses}`}
         ></span>
       ) : (
         ""

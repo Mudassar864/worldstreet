@@ -24,7 +24,7 @@ const TicketInformationBase = () => {
     },
     REPLIED: {
       icon: "ph:circle-duotone",
-      className: "bg-primary-500/10",
+      className: "bg-[#17161a]/10",
       iconClasses: "text-primary-500",
     },
     CLOSED: {
@@ -51,7 +51,7 @@ const TicketInformationBase = () => {
             avatar={
               <IconBox
                 icon="ph:credit-card-duotone"
-                className="h-8! w-8! rounded-lg! bg-primary-500/10"
+                className="h-8! w-8! rounded-lg! bg-[#17161a]/10"
                 iconClasses="h-5! w-5! text-primary-500"
               />
             }

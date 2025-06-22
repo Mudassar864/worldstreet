@@ -78,7 +78,7 @@ export const buttonIconVariants = cva(
         color: "primary",
         variant: "solid",
         className:
-          "[&>span>.loader]:text-muted-100 border border-primary-500 bg-primary-500 text-white enabled:hover:bg-primary-600 active:enabled:bg-primary-400",
+          "[&>span>.loader]:text-muted-100 border border-primary-500 bg-[#17161a] text-white enabled:hover:bg-primary-600 active:enabled:bg-primary-400",
       },
       {
         color: "info",
@@ -127,7 +127,7 @@ export const buttonIconVariants = cva(
         color: "primary",
         variant: "pastel",
         className:
-          "[&>span>.loader]:text-primary-500 bg-primary-500/10 dark:bg-primary-500/20 text-primary-500 enabled:hover:bg-primary-500/20 dark:enabled:hover:bg-primary-500/30 active:enabled:bg-primary-500/10 dark:active:enabled:bg-primary-500/10",
+          "[&>span>.loader]:text-primary-500 bg-[#17161a]/10 dark:bg-[#17161a]/20 text-primary-500 enabled:hover:bg-[#17161a]/20 dark:enabled:hover:bg-[#17161a]/30 active:enabled:bg-[#17161a]/10 dark:active:enabled:bg-[#17161a]/10",
       },
       {
         color: "info",
@@ -175,7 +175,7 @@ export const buttonIconVariants = cva(
         color: "primary",
         variant: "outlined",
         className:
-          "[&>span>.loader]:text-primary-500 border border-primary-500 text-primary-500 hover:bg-primary-500 active:enabled:bg-primary-400 hover:text-white",
+          "[&>span>.loader]:text-primary-500 border border-primary-500 text-primary-500 hover:bg-[#17161a] active:enabled:bg-primary-400 hover:text-white",
       },
       {
         color: "info",

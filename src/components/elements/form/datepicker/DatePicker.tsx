@@ -64,12 +64,12 @@ const pickerStyles = cva(
       },
       {
         isToday: true,
-        className: "font-medium bg-primary-500 text-white",
+        className: "font-medium bg-[#17161a] text-white",
       },
       {
         isSelected: true,
         isToday: true,
-        className: "bg-primary-500 text-white",
+        className: "bg-[#17161a] text-white",
       },
       {
         isSelected: false,
@@ -88,7 +88,7 @@ const pickerStyles = cva(
       {
         isSelected: true,
         isToday: false,
-        className: "bg-primary-500 text-white",
+        className: "bg-[#17161a] text-white",
       },
     ],
   }

@@ -81,7 +81,7 @@ const Message: FC<MessageProps> = ({
         }
         ${
           color === "primary"
-            ? "border-primary-500 bg-primary-500/10 text-primary-500"
+            ? "border-primary-500 bg-[#17161a]/10 text-primary-500"
             : ""
         }
         ${
@@ -136,7 +136,7 @@ const Message: FC<MessageProps> = ({
             }
             ${
               color === "primary"
-                ? "text-primary-500 hover:bg-primary-500/20"
+                ? "text-primary-500 hover:bg-[#17161a]/20"
                 : ""
             }
             ${color === "info" ? "text-info-500 hover:bg-info-500/20" : ""}

@@ -12,7 +12,7 @@ const InfoBlock: FC<{
       <div
         className={`flex h-8 w-8 items-center justify-center rounded-full transition-all duration-300 ${
           isAdd
-            ? "cursor-pointer text-muted-400 hover:bg-primary-500 hover:text-muted-100 hover:shadow-lg hover:shadow-muted-300/30 dark:hover:shadow-muted-800/20"
+            ? "cursor-pointer text-muted-400 hover:bg-[#17161a] hover:text-muted-100 hover:shadow-lg hover:shadow-muted-300/30 dark:hover:shadow-muted-800/20"
             : "text-muted-400"
         }`}
       >

@@ -763,8 +763,8 @@ const CoursePlayer: FC<PlayerProps> = ({
                             ${
                               challenge === activeChallenge &&
                               !challenge.completed
-                                ? "border-primary-500 bg-primary-500 text-white hover:enabled:bg-primary-600"
-                                : "border-primary-500/10 bg-primary-500/10 text-primary-500"
+                                ? "border-primary-500 bg-[#17161a] text-white hover:enabled:bg-primary-600"
+                                : "border-primary-500/10 bg-[#17161a]/10 text-primary-500"
                             }
                           `}
                           onClick={() => {

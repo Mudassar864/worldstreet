@@ -30,7 +30,7 @@ const SearchResultsBase = ({ searchTerm, id }: SearchResultsProps) => {
     }
 
     const iconClass =
-      "mask mask-blob flex h-9 w-9 items-center justify-center bg-primary-500/10 text-xs font-bold text-primary-500 dark:bg-primary-500/20";
+      "mask mask-blob flex h-9 w-9 items-center justify-center bg-[#17161a]/10 text-xs font-bold text-primary-500 dark:bg-[#17161a]/20";
 
     if (result.icon && !result.photoUrl) {
       return (
@@ -60,7 +60,7 @@ const SearchResultsBase = ({ searchTerm, id }: SearchResultsProps) => {
           }`}
         >
           {sub.icon && (
-            <div className="mask mask-blob flex h-9 w-9 items-center justify-center bg-primary-500/10 text-xs font-bold text-primary-500 dark:bg-primary-500/20">
+            <div className="mask mask-blob flex h-9 w-9 items-center justify-center bg-[#17161a]/10 text-xs font-bold text-primary-500 dark:bg-[#17161a]/20">
               <Icon icon={sub.icon} className="h-4 w-4" />
             </div>
           )}
@@ -70,7 +70,7 @@ const SearchResultsBase = ({ searchTerm, id }: SearchResultsProps) => {
             </span>
           </div>
           <div className="me-2 ms-auto">
-            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-primary-500/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#17161a]/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <Icon
                 icon="lucide:arrow-right"
                 className="h-3 w-3 -translate-x-1 text-primary-500 transition-transform duration-300 group-hover:translate-x-0"
@@ -110,7 +110,7 @@ const SearchResultsBase = ({ searchTerm, id }: SearchResultsProps) => {
           </div>
           <div className="me-2 ms-auto">
             <div
-              className={`flex h-7 w-7 items-center justify-center rounded-full bg-primary-500/10 transition-opacity duration-300 group-hover:opacity-100 ${
+              className={`flex h-7 w-7 items-center justify-center rounded-full bg-[#17161a]/10 transition-opacity duration-300 group-hover:opacity-100 ${
                 result.subMenu ? "" : "opacity-0"
               }`}
             >

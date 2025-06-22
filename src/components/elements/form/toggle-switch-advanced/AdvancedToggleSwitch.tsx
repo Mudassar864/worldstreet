@@ -49,7 +49,7 @@ const AdvancedToggleSwitch: FC<ToggleSwitchProps> = ({
             }  
             ${
               endColor === "primary"
-                ? "border-primary-500 bg-primary-500 text-white"
+                ? "border-primary-500 bg-[#17161a] text-white"
                 : ""
             }
             ${
@@ -86,7 +86,7 @@ const AdvancedToggleSwitch: FC<ToggleSwitchProps> = ({
             }  
             ${
               startColor === "primary"
-                ? "border-primary-500 bg-primary-500 text-white"
+                ? "border-primary-500 bg-[#17161a] text-white"
                 : ""
             }
             ${

@@ -210,7 +210,7 @@ const TradeInfoBase = () => {
               avatar={
                 <IconBox
                   icon="ph:info-duotone"
-                  className="h-8! w-8! rounded-lg! bg-primary-500/10"
+                  className="h-8! w-8! rounded-lg! bg-[#17161a]/10"
                   iconClasses="h-5! w-5! text-primary-500"
                 />
               }

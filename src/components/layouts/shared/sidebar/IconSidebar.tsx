@@ -127,7 +127,7 @@ const IconSidebar: FC<IconSidebarProps> = ({ float = false }) => {
                       float
                         ? "end-[-0.04rem] top-[-0.04rem] h-3 w-3 rounded-[100px] duration-[400ms]"
                         : "-end-[.04rem] -top-[.04rem] h-[.64rem] w-[.64rem] rounded-full duration-300"
-                    } scale-100 border border-white bg-primary-500 transition-transform  dark:border-muted-950  ${
+                    } scale-100 border border-white bg-[#17161a] transition-transform  dark:border-muted-950  ${
                       isProfileOpen ? "scale-0" : ""
                     }`}
                   ></span>
