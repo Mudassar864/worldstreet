@@ -43,7 +43,7 @@ const calendarStyles = cva(
       },
       {
         isToday: true,
-        className: "font-semibold bg-[#17161a]/10 text-primary-500",
+        className: "font-semibold bg-[#17161a]/10 text-[#17161a]",
       },
       {
         isSelected: true,
@@ -55,7 +55,7 @@ const calendarStyles = cva(
         isToday: false,
         isSameMonth: true,
         className:
-          "text-center hover:bg-muted-200 hover:text-primary-500 dark:hover:bg-muted-800",
+          "text-center hover:bg-muted-200 hover:text-[#17161a] dark:hover:bg-muted-800",
       },
       {
         isSelected: false,

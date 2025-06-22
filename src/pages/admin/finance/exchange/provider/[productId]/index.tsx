@@ -66,7 +66,7 @@ const ExchangeProviderPage = () => {
         <div className="flex items-center justify-center h-96 flex-col gap-5">
           <Icon
             icon="line-md:loading-loop"
-            className="h-8 w-8 animate-spin text-primary-500"
+            className="h-8 w-8 animate-spin text-[#17161a]"
           />
           <span className="text-muted-600 dark:text-muted-400 ml-2">
             {t("Loading")} {t("Exchange")}...
@@ -102,7 +102,7 @@ const ExchangeProviderPage = () => {
                     href={details?.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary-500 dark:text-primary-400 underline"
+                    className="text-[#17161a] dark:text-primary-400 underline"
                   >
                     {details?.supportedCountries}
                   </Link>
@@ -148,7 +148,7 @@ const ExchangeProviderPage = () => {
                 {result.message}
                 {result.status === false && (
                   <>
-                    <p className="text-primary-500 dark:text-primary-400 mt-4">
+                    <p className="text-[#17161a] dark:text-primary-400 mt-4">
                       {t(
                         "Please check your credentials in the .env file and try again. Note that any changes to the .env file will require a server restart."
                       )}

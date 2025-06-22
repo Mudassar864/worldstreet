@@ -44,7 +44,7 @@ const Progress: FC<ProgressProps> = ({
       />
       <circle
         className={`stroke-current transition-all duration-500
-          ${color === "primary" ? "text-primary-500" : ""}
+          ${color === "primary" ? "text-[#17161a]" : ""}
           ${color === "info" ? "text-info-500" : ""}
           ${color === "success" ? "text-success-500" : ""}
           ${color === "warning" ? "text-warning-500" : ""}

@@ -34,7 +34,7 @@ const AnnouncementItem: React.FC<{
           <div className="relative flex h-12 w-12 items-center bg-white dark:bg-muted-900 justify-center rounded-full border border-muted-200 shadow-lg shadow-muted-300/30 dark:border-muted-800 dark:shadow-muted-800/30">
             <Icon
               icon="ph:notification-duotone"
-              className="h-4 w-4 stroke-primary-500 stroke-[1.28px] text-primary-500 transition-[stroke] duration-300"
+              className="h-4 w-4 stroke-primary-500 stroke-[1.28px] text-[#17161a] transition-[stroke] duration-300"
             />
           </div>
           <div>
@@ -42,12 +42,12 @@ const AnnouncementItem: React.FC<{
               {item.link ? (
                 <a
                   href={item.link}
-                  className="cursor-pointer font-medium text-primary-500 hover:underline"
+                  className="cursor-pointer font-medium text-[#17161a] hover:underline"
                 >
                   {item.title}
                 </a>
               ) : (
-                <span className="font-medium text-primary-500">
+                <span className="font-medium text-[#17161a]">
                   {item.title}
                 </span>
               )}{" "}

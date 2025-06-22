@@ -154,7 +154,7 @@ const ProductPage: React.FC<Props> = ({ product, error }) => {
       <main>
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
           <h2 className="text-2xl">
-            <span className="text-primary-500">{product.name}</span>{" "}
+            <span className="text-[#17161a]">{product.name}</span>{" "}
             <span className="text-muted-800 dark:text-muted-200">
               {t("Details")}
             </span>

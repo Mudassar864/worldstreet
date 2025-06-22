@@ -24,7 +24,7 @@ const Breadcrumb: FC<BreadcrumbProps> = ({ items, separator = "slash" }) => {
             key={index}
             className={`text-sm ${
               items.length - 1 === index
-                ? "text-primary-500 dark:text-primary-400"
+                ? "text-[#17161a] dark:text-primary-400"
                 : "text-muted"
             }`}
           >

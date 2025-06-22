@@ -49,7 +49,7 @@ const NavDropdown: FC<NavDropdownProps> = ({
     >
       <a
         className={`${navItemBaseStyles} relative flex w-full cursor-pointer items-center justify-between ${
-          isOpen ? "bg-muted-100 text-primary-500 dark:bg-muted-800" : ""
+          isOpen ? "bg-muted-100 text-[#17161a] dark:bg-muted-800" : ""
         } ${isActive ? "rounded-none lg:rounded-lg" : ""}`}
         onClick={() => setIsOpen(!isOpen)}
       >

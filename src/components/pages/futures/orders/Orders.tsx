@@ -12,7 +12,7 @@ import { debounce } from "lodash";
 const statusClass = (status: string) => {
   switch (status) {
     case "ACTIVE":
-      return "text-primary-500";
+      return "text-[#17161a]";
     case "OPEN":
       return "text-warning-500";
     case "CLOSED":

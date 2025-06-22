@@ -76,7 +76,7 @@ const LoginFormsBase = () => {
             >
               <Icon
                 icon={showPassword ? "lucide:eye" : "lucide:eye-off"}
-                className="w-4 h-4 text-muted-400 hover:text-primary-500 dark:text-muted-500 dark:hover:text-primary-500"
+                className="w-4 h-4 text-muted-400 hover:text-[#17161a] dark:text-muted-500 dark:hover:text-[#17161a]"
               />
             </button>
           </div>
@@ -95,7 +95,7 @@ const LoginFormsBase = () => {
           <div className="text-sm leading-5">
             <Link
               href="/forgot"
-              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-primary-500 hover:underline focus:underline focus:outline-hidden"
+              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-[#17161a] hover:underline focus:underline focus:outline-hidden"
             >
               {t("Forgot your password")}
             </Link>
@@ -122,7 +122,7 @@ const LoginFormsBase = () => {
         <span>{t("Need an account")}</span>
         <Link
           href="/register"
-          className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-primary-500 hover:underline focus:underline focus:outline-hidden"
+          className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-[#17161a] hover:underline focus:underline focus:outline-hidden"
         >
           {t("Create an account")}
         </Link>

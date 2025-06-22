@@ -62,7 +62,7 @@ const AppNavbar: FC<AppNavbarProps> = ({
                     }}
                   />
 
-                  <div className="absolute left-0 top-0 z-1 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 dark:text-muted-500 [&>svg]:peer-checked:text-primary-500 [&>svg]:peer-focus:stroke-primary-500 [&>svg]:peer-focus:text-primary-500 ">
+                  <div className="absolute left-0 top-0 z-1 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 dark:text-muted-500 [&>svg]:peer-checked:text-[#17161a] [&>svg]:peer-focus:stroke-primary-500 [&>svg]:peer-focus:text-[#17161a] ">
                     <Icon
                       icon="lucide:search"
                       className="text-lg transition-colors duration-300"
@@ -93,12 +93,12 @@ const AppNavbar: FC<AppNavbarProps> = ({
 
             <div className="group relative text-start">
               <button
-                className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
+                className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-[#17161a] hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
                 onClick={() => setPanelOpen("locales", true)}
               >
                 <Icon
                   icon="iconoir:language"
-                  className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+                  className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
                 />
               </button>
             </div>
@@ -108,12 +108,12 @@ const AppNavbar: FC<AppNavbarProps> = ({
                 <div className="group relative text-start">
                   <span className="absolute right-0.5 top-0.5 z-2 block h-2 w-2 rounded-full bg-[#17161a] "></span>
                   <button
-                    className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
+                    className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-[#17161a] hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
                     onClick={() => setPanelOpen("announcements", true)}
                   >
                     <Icon
                       icon="ph:megaphone"
-                      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+                      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
                     />
                   </button>
                 </div>

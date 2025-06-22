@@ -86,7 +86,7 @@ const CategoryPage: React.FC<Props> = ({ category, error }) => {
     <Layout title={`${category.name} Products`}>
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <h2 className="text-2xl">
-          <span className="text-primary-500">{category.name}</span>{" "}
+          <span className="text-[#17161a]">{category.name}</span>{" "}
           <span className="text-muted-800 dark:text-muted-200">
             {t("Products")}
           </span>
@@ -121,7 +121,7 @@ const CategoryPage: React.FC<Props> = ({ category, error }) => {
             <div key={product.id} className="relative group">
               <Link href={`/store/${category.slug}/${product.slug}`}>
                 <Card
-                  className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-primary-500 dark:hover:border-primary-400"
+                  className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-[#17161a] dark:hover:border-primary-400"
                   shadow="hover"
                   color="contrast"
                 >

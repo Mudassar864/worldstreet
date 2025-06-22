@@ -38,7 +38,7 @@ const DropdownAction: FC<DropdownActionProps> = ({
         ) : (
           <Icon
             icon={toggleIcon}
-            className="h-5 w-5 text-muted-400 transition-colors duration-300 group-hover:text-primary-500"
+            className="h-5 w-5 text-muted-400 transition-colors duration-300 group-hover:text-[#17161a]"
           />
         )
       }

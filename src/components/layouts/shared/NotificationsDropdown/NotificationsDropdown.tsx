@@ -34,12 +34,12 @@ const NotificationsDropdownBase = () => {
           type="button"
           name="notificationsDropdownToggle"
           aria-label="Notifications dropdown"
-          className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
+          className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-[#17161a] hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
           onClick={() => setIsPanelOpened(!isPanelOpened)}
         >
           <Icon
             icon="ph:bell-duotone"
-            className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+            className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
           />
         </button>
       </div>

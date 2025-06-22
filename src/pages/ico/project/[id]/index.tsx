@@ -131,7 +131,7 @@ const TokenInitialOfferingDashboard: React.FC<Props> = ({
     <Layout title={`${capitalize(project.name)} Project`} color="muted">
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <h2 className="text-2xl">
-          <span className="text-primary-500">
+          <span className="text-[#17161a]">
             {capitalize(project.name)} {t("Project")}
           </span>{" "}
           <span className="text-muted-800 dark:text-muted-200">

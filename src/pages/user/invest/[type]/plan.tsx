@@ -99,7 +99,7 @@ const InvestmentPlansDashboard = () => {
       <div className="w-full flex items-center justify-between mb-6">
         <div className="w-full hidden sm:block">
           <h2 className="text-2xl">
-            <span className="text-primary-500">{t("Popular")} </span>
+            <span className="text-[#17161a]">{t("Popular")} </span>
             <span className="text-muted-800 dark:text-muted-200">
               {t("Investment Plans")}
             </span>
@@ -131,7 +131,7 @@ const InvestmentPlansDashboard = () => {
         {filteredPlans.map((plan) => (
           <Link key={plan.id} href={`/user/invest/${type}/${plan.id}`}>
             <Card
-              className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-primary-500 dark:hover:border-primary-400"
+              className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-[#17161a] dark:hover:border-primary-400"
               color="contrast"
             >
               <div className="relative w-full h-[200px]">
@@ -151,7 +151,7 @@ const InvestmentPlansDashboard = () => {
               </div>
 
               <div className="p-2">
-                <h3 className="text-lg font-semibold text-primary-500 dark:text-primary-400">
+                <h3 className="text-lg font-semibold text-[#17161a] dark:text-primary-400">
                   {plan.title}
                 </h3>
                 <div className="flex flex-col gap-1">

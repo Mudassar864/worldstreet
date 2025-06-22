@@ -29,7 +29,7 @@ const StepProgressBase: React.FC<StepProgressProps> = ({ step, icons }) => {
         }}
         className={`flex h-10 w-10 items-center justify-center rounded-full border-[1.4px] bg-white dark:bg-muted-950 ${
           step > index
-            ? "border-primary-500 text-primary-500"
+            ? "border-[#17161a] text-[#17161a]"
             : "border-muted-200 text-muted-400 dark:border-muted-800"
         }`}
       >

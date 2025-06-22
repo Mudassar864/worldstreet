@@ -285,7 +285,7 @@ const PaymentPage: React.FC<Props> = ({ paymentDetails, error }) => {
           <div>
             <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
               <h2 className="text-2xl">
-                <span className="text-primary-500">{t("Order summary")}: </span>
+                <span className="text-[#17161a]">{t("Order summary")}: </span>
                 <span className="text-muted-800 dark:text-muted-200">
                   {paymentDetails.description}
                 </span>
@@ -402,7 +402,7 @@ const PaymentPage: React.FC<Props> = ({ paymentDetails, error }) => {
                               <button
                                 type="button"
                                 onClick={() => setStep(1)}
-                                className="text-primary-500 hover:text-primary-700"
+                                className="text-[#17161a] hover:text-primary-700"
                               >
                                 <Icon icon="mdi:pencil" className="h-4 w-4" />
                               </button>
@@ -421,7 +421,7 @@ const PaymentPage: React.FC<Props> = ({ paymentDetails, error }) => {
                               <button
                                 type="button"
                                 onClick={() => setStep(2)}
-                                className="text-primary-500 hover:text-primary-700"
+                                className="text-[#17161a] hover:text-primary-700"
                               >
                                 <Icon icon="mdi:pencil" className="h-4 w-4" />
                               </button>
@@ -546,7 +546,7 @@ const PaymentPage: React.FC<Props> = ({ paymentDetails, error }) => {
                         <Link
                           href="/privacy-policy"
                           title=""
-                          className="text-sm font-medium text-primary-700 underline hover:no-underline dark:text-primary-500"
+                          className="text-sm font-medium text-primary-700 underline hover:no-underline dark:text-[#17161a]"
                         >
                           {t("privacy note")}
                         </Link>{" "}
@@ -554,7 +554,7 @@ const PaymentPage: React.FC<Props> = ({ paymentDetails, error }) => {
                         <Link
                           href="/terms-and-conditions"
                           title=""
-                          className="text-sm font-medium text-primary-700 underline hover:no-underline dark:text-primary-500"
+                          className="text-sm font-medium text-primary-700 underline hover:no-underline dark:text-[#17161a]"
                         >
                           {t("terms of use")}
                         </Link>

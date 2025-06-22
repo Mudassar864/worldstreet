@@ -62,7 +62,7 @@ const StripeSession = () => {
         <div className="my-auto text-center flex flex-col justify-center space-y-5 py-20 items-center text-muted-800 dark:text-muted-200">
           <Icon
             icon="mdi:loading"
-            className="animate-spin text-4xl text-primary-500 h-24 w-24"
+            className="animate-spin text-4xl text-[#17161a] h-24 w-24"
           />
           <h1 className="text-2xl font-bold">{t("Processing Payment...")}</h1>
           <p>{t("Please wait while we process your payment.")}</p>

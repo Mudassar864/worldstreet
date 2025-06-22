@@ -12,7 +12,7 @@ const PostCardBase = ({ post }: PostCardProps) => {
     <Link href={`/blog/${post.slug}`} passHref>
       <Card
         shape="curved"
-        className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-primary-500 dark:hover:border-primary-400"
+        className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-[#17161a] dark:hover:border-primary-400"
       >
         <div className="relative w-full h-[200px]">
           <MashImage

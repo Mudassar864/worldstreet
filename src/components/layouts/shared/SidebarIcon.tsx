@@ -103,7 +103,7 @@ const SidebarIcon: FC<SidebarIconProps> = ({
         icon={icon}
         className={`relative text-2xl text-muted-400 transition-colors duration-300 ${
           activeSidebar === name
-            ? "text-primary-500"
+            ? "text-[#17161a]"
             : "group-hover/side-icon:text-muted-500 "
         }`}
       />

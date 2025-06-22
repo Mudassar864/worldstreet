@@ -114,7 +114,7 @@ const Avatar: FC<AvatarProps> = ({
       }
       ${
         color === "primary"
-          ? "bg-[#17161a]/10 text-primary-500 dark:bg-[#17161a]/20"
+          ? "bg-[#17161a]/10 text-[#17161a] dark:bg-[#17161a]/20"
           : ""
       }
       ${

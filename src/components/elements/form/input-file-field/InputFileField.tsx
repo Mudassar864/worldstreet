@@ -34,22 +34,22 @@ const InputFileField: FC<InputFileFieldProps> = ({
         className={`relative flex items-center justify-between border-2 px-4 py-3 transition duration-150 ease-in-out
         ${
           color === "default"
-            ? "border-muted-200 bg-white hover:border-primary-500 dark:border-muted-700 dark:bg-muted-800 dark:hover:border-primary-500"
+            ? "border-muted-200 bg-white hover:border-[#17161a] dark:border-muted-700 dark:bg-muted-800 dark:hover:border-[#17161a]"
             : ""
         }
         ${
           color === "contrast"
-            ? "bg-white hover:border-primary-500 dark:border-muted-800 dark:bg-muted-950 dark:hover:border-primary-500"
+            ? "bg-white hover:border-[#17161a] dark:border-muted-800 dark:bg-muted-950 dark:hover:border-[#17161a]"
             : ""
         }
         ${
           color === "muted"
-            ? "border-muted-200 bg-muted-100 hover:border-primary-500 dark:border-muted-700 dark:bg-muted-800 dark:hover:border-primary-500"
+            ? "border-muted-200 bg-muted-100 hover:border-[#17161a] dark:border-muted-700 dark:bg-muted-800 dark:hover:border-[#17161a]"
             : ""
         }
         ${
           color === "mutedContrast"
-            ? "border-muted-200 bg-muted-100 hover:border-primary-500 dark:border-muted-800 dark:bg-muted-950 dark:hover:border-primary-500"
+            ? "border-muted-200 bg-muted-100 hover:border-[#17161a] dark:border-muted-800 dark:bg-muted-950 dark:hover:border-[#17161a]"
             : ""
         }
         ${shape === "rounded-sm" ? "rounded-md" : ""}

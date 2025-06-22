@@ -461,7 +461,7 @@ const FuturesMarketsBase = () => {
             <button
               type="button"
               onClick={() => changePage(1)}
-              className="cursor-pointer text-md text-muted-400 underline-offset-4 hover:text-primary-500 hover:underline"
+              className="cursor-pointer text-md text-muted-400 underline-offset-4 hover:text-[#17161a] hover:underline"
             >
               <span>{t("First")}</span>
             </button>
@@ -471,7 +471,7 @@ const FuturesMarketsBase = () => {
             <button
               type="button"
               onClick={() => changePage(pagination.lastPage)}
-              className="cursor-pointer text-md text-muted-400 underline-offset-4 hover:text-primary-500 hover:underline"
+              className="cursor-pointer text-md text-muted-400 underline-offset-4 hover:text-[#17161a] hover:underline"
             >
               <span>{t("Last")}</span>
             </button>

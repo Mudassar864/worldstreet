@@ -258,7 +258,7 @@ const StakesDashboard = () => {
       <div className="relative pt-5">
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-2xl">
-            <span className="text-primary-500">{t("Staking")}</span>{" "}
+            <span className="text-[#17161a]">{t("Staking")}</span>{" "}
             <span className="text-muted-800 dark:text-muted-200">
               {t("Pools")}
             </span>

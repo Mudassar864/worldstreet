@@ -41,7 +41,7 @@ const LayoutSwitcher = () => {
           name="layoutSwitcherToggle"
           aria-label="Layout switcher"
           type="button"
-          className={`flex items-center rounded-lg border border-muted-200 bg-white p-3 text-start shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-primary-500 dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-primary-500 ${
+          className={`flex items-center rounded-lg border border-muted-200 bg-white p-3 text-start shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-[#17161a] dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-[#17161a] ${
             open
               ? "pointer-events-none translate-y-full opacity-0"
               : "pointer-events-auto translate-y-0 opacity-100"
@@ -50,12 +50,12 @@ const LayoutSwitcher = () => {
         >
           <Icon
             icon="ph:layout-duotone"
-            className="h-6 w-6 shrink-0 text-muted-400 transition-colors duration-300 group-hover/layouts:text-primary-500"
+            className="h-6 w-6 shrink-0 text-muted-400 transition-colors duration-300 group-hover/layouts:text-[#17161a]"
           />
         </button>
       </Tooltip>
       <div
-        className={`fixed bottom-5 right-5 z-1000 h-[350px] sm:h-[200px] w-[480px] max-w-[90%] sm:max-w-[80%] overflow-hidden rounded-lg border border-muted-200 bg-white shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-primary-500 dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-primary-500 ${
+        className={`fixed bottom-5 right-5 z-1000 h-[350px] sm:h-[200px] w-[480px] max-w-[90%] sm:max-w-[80%] overflow-hidden rounded-lg border border-muted-200 bg-white shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-[#17161a] dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-[#17161a] ${
           open
             ? "pointer-events-auto translate-y-0 opacity-100"
             : "pointer-events-none translate-y-full opacity-0"
@@ -126,7 +126,7 @@ const LayoutSwitcher = () => {
                 <span
                   className={`block font-sans text-xs  ${
                     activeLayout === layout
-                      ? "text-primary-500"
+                      ? "text-[#17161a]"
                       : "text-muted-400"
                   }`}
                 >

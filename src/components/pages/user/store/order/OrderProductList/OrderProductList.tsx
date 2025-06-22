@@ -36,7 +36,7 @@ const OrderProductListBase = ({ products }) => {
               >
                 <Icon
                   icon="line-md:downloading-loop"
-                  className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+                  className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
                   onClick={() => {
                     if (product.ecommerceOrderItem?.key) {
                       const element = document.createElement("a");
@@ -74,7 +74,7 @@ const OrderProductListBase = ({ products }) => {
 
             <Link
               href={`/store/${product.category?.name}/${product.name}`}
-              className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+              className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
             >
               <Icon icon="lucide:arrow-right" />
             </Link>

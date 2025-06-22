@@ -72,7 +72,7 @@ const HeroSection = () => {
                   {t("Your Estimated Balance")}
                 </h2>
                 <div className="flex items-center space-x-4">
-                  <span className="text-4xl font-semibold text-primary-500">
+                  <span className="text-4xl font-semibold text-[#17161a]">
                     {pnl?.today ? (
                       `$${pnl.today?.toFixed(2)}`
                     ) : loading ? (
@@ -233,13 +233,13 @@ const HeroSection = () => {
                       <React.Fragment key={index}>
                         <img
                           className="w-full object-cover shadow-lg rounded-lg dark:shadow-neutral-900/80 dark:hidden border border-muted-200 dark:border-muted-800
-            hover:border hover:border-primary-500 dark:hover:border dark:hover:border-primary-400 transition-all duration-300"
+            hover:border hover:border-[#17161a] dark:hover:border dark:hover:border-primary-400 transition-all duration-300"
                           src={image.light}
                           alt={`Image ${index + 1}`}
                         />
                         <img
                           className="hidden w-full object-cover shadow-lg rounded-lg dark:shadow-neutral-900/80 dark:block border border-muted-200 dark:border-muted-800
-            hover:border hover:border-primary-500 dark:hover:border dark:hover:border-primary-400 transition-all duration-300"
+            hover:border hover:border-[#17161a] dark:hover:border dark:hover:border-primary-400 transition-all duration-300"
                           src={image.dark}
                           alt={`Image ${index + 1}`}
                         />

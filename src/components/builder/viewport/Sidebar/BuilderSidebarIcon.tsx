@@ -31,7 +31,7 @@ const BuilderSidebarIcon: FC<SidebarIconProps> = ({ icon, name }) => {
             icon={icon}
             className={`relative h-7 w-7 text-muted-600 dark:text-muted-400 transition-colors duration-300 ${
               sidebar === name
-                ? "text-primary-500"
+                ? "text-[#17161a]"
                 : "group-hover/side-icon:text-muted-500 dark:group-hover/side-icon:text-muted-300"
             }`}
           />

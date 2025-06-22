@@ -46,7 +46,7 @@ const LocaleLogoBase = () => {
   ) : (
     <Icon
       icon="iconoir:language"
-      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
     />
   );
 };

@@ -184,7 +184,7 @@ const TradeInfoBase = () => {
                 itemAction={
                   <Link
                     href={`mailto:${trade?.user?.email}`}
-                    className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+                    className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
                   >
                     <Icon icon="lucide:arrow-right" />
                   </Link>
@@ -211,7 +211,7 @@ const TradeInfoBase = () => {
                 <IconBox
                   icon="ph:info-duotone"
                   className="h-8! w-8! rounded-lg! bg-[#17161a]/10"
-                  iconClasses="h-5! w-5! text-primary-500"
+                  iconClasses="h-5! w-5! text-[#17161a]"
                 />
               }
               title={t("You are the")}

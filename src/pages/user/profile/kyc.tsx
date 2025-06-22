@@ -545,7 +545,7 @@ const KycApplication: React.FC = () => {
                   >
                     <Card
                       shape="rounded-sm"
-                      className="border-2 p-4 opacity-50 peer-checked:border-primary-500! peer-checked:opacity-100 [&_.child]:peer-checked:text-primary-500!"
+                      className="border-2 p-4 opacity-50 peer-checked:border-[#17161a]! peer-checked:opacity-100 [&_.child]:peer-checked:text-[#17161a]!"
                     >
                       <div className="flex w-full items-center gap-2">
                         <Avatar

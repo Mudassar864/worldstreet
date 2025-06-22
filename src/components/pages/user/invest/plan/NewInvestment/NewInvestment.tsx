@@ -53,13 +53,13 @@ const NewInvestmentBase = ({
           <div className="flex justify-between">
             <p className="text-sm text-muted-400">{t("Wallet Type")}</p>
             <Link href={`/user/wallet/${plan?.walletType}`}>
-              <span className="text-primary-500">{plan?.walletType}</span>
+              <span className="text-[#17161a]">{plan?.walletType}</span>
             </Link>
           </div>
           <div className="flex justify-between">
             <p className="text-sm text-muted-400">{t("Currency")}</p>
             <Link href={`/user/wallet/${plan?.walletType}/${plan?.currency}`}>
-              <span className="text-primary-500">{plan?.currency}</span>
+              <span className="text-[#17161a]">{plan?.currency}</span>
             </Link>
           </div>
         </div>

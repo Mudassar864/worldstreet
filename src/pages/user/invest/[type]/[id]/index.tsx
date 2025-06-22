@@ -255,7 +255,7 @@ const InvestmentPlansDashboard = () => {
                       <Link href={`/user/wallet/deposit`}>
                         <Icon
                           icon="mdi:plus"
-                          className="h-5 w-5 hover:text-primary-500 cursor-pointer"
+                          className="h-5 w-5 hover:text-[#17161a] cursor-pointer"
                         />
                       </Link>
                     </h3>

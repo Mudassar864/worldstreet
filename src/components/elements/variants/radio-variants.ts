@@ -5,7 +5,7 @@ export const radioVariants = cva(
   {
     variants: {
       color: {
-        primary: "text-primary-500",
+        primary: "text-[#17161a]",
         info: "text-info-500",
         success: "text-success-500",
         warning: "text-warning-500",

@@ -276,7 +276,7 @@ const CoursePlayer: FC<PlayerProps> = ({
             className={`border-b-2 pb-3 pt-4 text-sm
               ${
                 activeTab === "downloads"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-600 dark:text-muted-500 dark:hover:text-muted-300"
               }
             `}
@@ -291,7 +291,7 @@ const CoursePlayer: FC<PlayerProps> = ({
             className={`border-b-2 pb-3 pt-4 text-sm
               ${
                 activeTab === "comments"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-600 dark:text-muted-500 dark:hover:text-muted-300"
               }
             `}
@@ -306,7 +306,7 @@ const CoursePlayer: FC<PlayerProps> = ({
             className={`border-b-2 pb-3 pt-4 text-sm
               ${
                 activeTab === "reviews"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-600 dark:text-muted-500 dark:hover:text-muted-300"
               }
             `}
@@ -339,7 +339,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                               {download.type === "file" ? (
                                 <Icon
                                   icon="ph:file-text"
-                                  className="h-5 w-5 text-primary-500"
+                                  className="h-5 w-5 text-[#17161a]"
                                 />
                               ) : (
                                 ""
@@ -428,7 +428,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                             {download.type === "file" ? (
                               <Icon
                                 icon="ph:file-text"
-                                className="h-5 w-5 text-primary-500"
+                                className="h-5 w-5 text-[#17161a]"
                               />
                             ) : (
                               ""
@@ -540,7 +540,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                               <div className="flex items-center justify-center gap-3 font-medium text-muted-500 dark:text-muted-400">
                                 <button
                                   type="button"
-                                  className="flex items-center underline-offset-4 hover:text-primary-500 hover:underline"
+                                  className="flex items-center underline-offset-4 hover:text-[#17161a] hover:underline"
                                 >
                                   <span>{t("Like")}</span>
                                 </button>
@@ -549,7 +549,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                                 </small>
                                 <button
                                   type="button"
-                                  className="flex items-center underline-offset-4 hover:text-primary-500 hover:underline"
+                                  className="flex items-center underline-offset-4 hover:text-[#17161a] hover:underline"
                                 >
                                   <span>{t("Reply")}</span>
                                 </button>
@@ -685,7 +685,7 @@ const CoursePlayer: FC<PlayerProps> = ({
               </Tag>
               <Link
                 href="#"
-                className="group flex items-center gap-2 text-muted-400 underline-offset-4 transition-colors duration-300 hover:text-primary-500 hover:underline"
+                className="group flex items-center gap-2 text-muted-400 underline-offset-4 transition-colors duration-300 hover:text-[#17161a] hover:underline"
               >
                 <Icon
                   icon="lucide:arrow-left"
@@ -707,7 +707,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                   {t("Chapters")}
                 </span>
                 <span className="px-2">·</span>
-                <span className="text-sm font-medium text-primary-500">
+                <span className="text-sm font-medium text-[#17161a]">
                   {course.duration}
                 </span>
               </div>
@@ -763,8 +763,8 @@ const CoursePlayer: FC<PlayerProps> = ({
                             ${
                               challenge === activeChallenge &&
                               !challenge.completed
-                                ? "border-primary-500 bg-[#17161a] text-white hover:enabled:bg-primary-600"
-                                : "border-primary-500/10 bg-[#17161a]/10 text-primary-500"
+                                ? "border-[#17161a] bg-[#17161a] text-white hover:enabled:bg-primary-600"
+                                : "border-[#17161a]/10 bg-[#17161a]/10 text-[#17161a]"
                             }
                           `}
                           onClick={() => {
@@ -801,7 +801,7 @@ const CoursePlayer: FC<PlayerProps> = ({
                         className={`block text-start text-sm transition-colors duration-300
                             ${
                               challenge === activeChallenge
-                                ? "font-semibold text-primary-500"
+                                ? "font-semibold text-[#17161a]"
                                 : "text-muted-500 hover:text-muted-700 dark:text-muted-400 dark:hover:text-muted-100"
                             }
                           `}

@@ -146,7 +146,7 @@ const ListBox: FC<ListboxProps> = ({
             </span>
 
             <div
-              className={`absolute left-0 top-0 z-0 flex items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-primary-500 dark:text-muted-500 
+              className={`absolute left-0 top-0 z-0 flex items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-[#17161a] dark:text-muted-500 
                 ${size === "sm" ? "h-8 w-8" : ""} 
                 ${size === "md" ? "h-10 w-10" : ""} 
                 ${size === "lg" ? "h-12 w-12" : ""}`}
@@ -181,7 +181,7 @@ const ListBox: FC<ListboxProps> = ({
             </div>
             {!!loading ? (
               <div
-                className={`absolute right-0 top-0 z-0 flex items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-primary-500 dark:text-muted-500 
+                className={`absolute right-0 top-0 z-0 flex items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-[#17161a] dark:text-muted-500 
                   ${size === "sm" ? "h-8 w-8" : ""} 
                   ${size === "md" ? "h-10 w-10" : ""} 
                   ${size === "lg" ? "h-12 w-12" : ""}`}

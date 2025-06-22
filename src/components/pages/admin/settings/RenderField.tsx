@@ -53,7 +53,7 @@ const RenderField = ({
               <img
                 src={preview}
                 alt={`${field.label} Preview`}
-                className="w-full max-h-[300px] object-contain rounded-lg border border-muted-300 dark:border-muted-800 hover:border-primary-500 transition-all duration-300 dark:hover:border-primary-400"
+                className="w-full max-h-[300px] object-contain rounded-lg border border-muted-300 dark:border-muted-800 hover:border-[#17161a] transition-all duration-300 dark:hover:border-primary-400"
               />
             </div>
           )}

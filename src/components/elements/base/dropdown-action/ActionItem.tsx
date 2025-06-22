@@ -48,7 +48,7 @@ const ActionItem: FC<ActionItemProps> = ({
       {icon ? (
         <Icon
           icon={icon}
-          className="h-5 w-5 text-muted-400 transition-colors duration-300 group-hover:option:text-primary-500"
+          className="h-5 w-5 text-muted-400 transition-colors duration-300 group-hover:option:text-[#17161a]"
         />
       ) : null}
       <div className="font-sans">

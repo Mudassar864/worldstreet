@@ -23,7 +23,7 @@ const FaqBase = ({ category }: FaqProps) => {
   return faqs.length > 0 ? (
     <Card className="mt-10 grid grid-cols-2 gap-4 p-5" color={"muted"}>
       <div className="col-span-2">
-        <h1 className="text-xl text-primary-500 dark:text-primary-400">
+        <h1 className="text-xl text-[#17161a] dark:text-primary-400">
           {t("Frequently Asked Questions")}
         </h1>
       </div>

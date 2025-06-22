@@ -1,7 +1,7 @@
 import React, { type FC } from "react";
 
 const CircleColors: CircleColors = {
-  primary: "text-primary-500",
+  primary: "text-[#17161a]",
   info: "text-info-500",
   yellow: "text-yellow-500",
   success: "text-success-500",

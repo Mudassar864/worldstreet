@@ -117,7 +117,7 @@ export const iconboxVariants = cva("shrink-0", {
     {
       variant: "pastel",
       color: "primary",
-      className: "bg-[#17161a]/10 dark:bg-[#17161a]/20 text-primary-500",
+      className: "bg-[#17161a]/10 dark:bg-[#17161a]/20 text-[#17161a]",
     },
     {
       variant: "pastel",
@@ -165,7 +165,7 @@ export const iconboxVariants = cva("shrink-0", {
     {
       variant: "outlined",
       color: "primary",
-      className: "border border-primary-500 text-primary-500",
+      className: "border border-[#17161a] text-[#17161a]",
     },
     {
       variant: "outlined",

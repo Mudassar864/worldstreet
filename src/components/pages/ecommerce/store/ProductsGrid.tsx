@@ -38,7 +38,7 @@ const ProductsGrid: React.FC<Props> = ({
     <div>
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <h2 className="text-2xl">
-          <span className="text-primary-500">{capitalize("All")}</span>{" "}
+          <span className="text-[#17161a]">{capitalize("All")}</span>{" "}
           <span className="text-muted-800 dark:text-muted-200">
             {t("Products")}
           </span>
@@ -69,7 +69,7 @@ const ProductsGrid: React.FC<Props> = ({
             <div key={product.id} className="relative group">
               <Link href={`/store/${product.category.slug}/${product.slug}`}>
                 <Card
-                  className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-primary-500 dark:hover:border-primary-400"
+                  className="group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-[#17161a] dark:hover:border-primary-400"
                   color="contrast"
                 >
                   <div className="relative w-full h-[200px]">

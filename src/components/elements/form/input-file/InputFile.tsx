@@ -133,7 +133,7 @@ export default function InputFile(props: InputFileProps) {
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       className={`flex w-full flex-col gap-2
-    ${isDraggingOver ? "bg-primary-100 border-primary-500" : "bg-muted-100"} 
+    ${isDraggingOver ? "bg-primary-100 border-[#17161a]" : "bg-muted-100"} 
     ${
       bordered && color === "default"
         ? "border border-muted-200 dark:border-muted-700"
@@ -237,7 +237,7 @@ export default function InputFile(props: InputFileProps) {
                   width="32"
                   height="32"
                   viewBox="0 0 24 24"
-                  className="mx-auto mb-4 h-14 w-14 text-muted-400 transition-colors duration-300 group-hover:text-primary-500"
+                  className="mx-auto mb-4 h-14 w-14 text-muted-400 transition-colors duration-300 group-hover:text-[#17161a]"
                 >
                   <g fill="none" stroke="currentColor" strokeLinejoin="round">
                     <path d="M2 14.5A4.5 4.5 0 0 0 6.5 19h12a3.5 3.5 0 0 0 .5-6.965a7 7 0 0 0-13.76-1.857A4.502 4.502 0 0 0 2 14.5Z" />

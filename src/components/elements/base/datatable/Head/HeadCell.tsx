@@ -63,7 +63,7 @@ const HeadCell = ({
               {filter[sortField] && (
                 <span className="text-xs font-medium text-muted">
                   (
-                  <span className="text-primary-500 dark:text-primary-400">
+                  <span className="text-[#17161a] dark:text-primary-400">
                     {filterLabel}
                   </span>
                   )
@@ -73,7 +73,7 @@ const HeadCell = ({
                 icon={filter[sortField] ? "mdi:filter" : "mdi:filter-outline"}
                 className={`h-4 w-4 ${
                   filter[sortField]
-                    ? "text-primary-500 dark:text-primary-400"
+                    ? "text-[#17161a] dark:text-primary-400"
                     : "text-muted"
                 }`}
               />
@@ -94,7 +94,7 @@ const HeadCell = ({
             stroke="currentColor"
             className={`h-2.5 w-2.5 cursor-pointer fill-none ${
               sort.rule === "asc" && isSorted
-                ? "text-primary-500"
+                ? "text-[#17161a]"
                 : "text-muted-400"
             }`}
           >
@@ -113,7 +113,7 @@ const HeadCell = ({
             stroke="currentColor"
             className={`h-2.5 w-2.5 cursor-pointer fill-none ${
               sort.rule === "desc" && isSorted
-                ? "text-primary-500"
+                ? "text-[#17161a]"
                 : "text-muted-400"
             }`}
           >

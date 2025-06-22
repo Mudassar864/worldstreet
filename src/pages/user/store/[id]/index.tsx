@@ -129,9 +129,9 @@ const OrderReceipt = () => {
         <div className="flex flex-col items-center space-y-4">
           <Icon
             icon="mdi:loading"
-            className="h-12 w-12 animate-spin text-primary-500"
+            className="h-12 w-12 animate-spin text-[#17161a]"
           />
-          <p className="text-xl text-primary-500">{t("Loading order...")}</p>
+          <p className="text-xl text-[#17161a]">{t("Loading order...")}</p>
         </div>
       </div>
     );
@@ -254,7 +254,7 @@ const OrderReceipt = () => {
                       itemAction={
                         <Link
                           href={`mailto:${process.env.NEXT_PUBLIC_APP_EMAIL}`}
-                          className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+                          className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
                         >
                           <Icon icon="lucide:arrow-right" />
                         </Link>

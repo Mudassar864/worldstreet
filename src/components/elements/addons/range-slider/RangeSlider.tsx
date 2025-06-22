@@ -68,7 +68,7 @@ const RangeSlider: FC<RangeSliderProps> = ({
         markClassName={`-top-1 left-1 h-3 w-3 border-2 bg-muted-100 dark:bg-muted-900 rounded-sm rotate-45 cursor-pointer
           ${
             color === "primary"
-              ? "border-primary-500 hover:bg-muted-400 dark:hover:bg-muted-500 hover:border-muted-200 dark:hover:border-muted-950"
+              ? "border-[#17161a] hover:bg-muted-400 dark:hover:bg-muted-500 hover:border-muted-200 dark:hover:border-muted-950"
               : ""
           }
           ${
@@ -95,7 +95,7 @@ const RangeSlider: FC<RangeSliderProps> = ({
         onChange={(value) => onSliderChange?.(value as number)}
         thumbActiveClassName="[&>div>div]:opacity-100 [&>div>div>div]:translate-y-0 [&>div]:ring-1"
         trackClassName={`rounded-sm even:border-muted-300 dark:even:border-muted-700
-          ${color === "primary" ? "odd:border-primary-500" : ""}
+          ${color === "primary" ? "odd:border-[#17161a]" : ""}
           ${color === "info" ? "odd:border-info-500" : ""}
           ${color === "success" ? "odd:border-success-500" : ""}
           ${color === "warning" ? "odd:border-warning-500" : ""}
@@ -116,7 +116,7 @@ const RangeSlider: FC<RangeSliderProps> = ({
           return (
             <div
               className={`absolute -top-1 left-0 rounded-sm rotate-45
-                ${color === "primary" ? "border-primary-500" : ""}
+                ${color === "primary" ? "border-[#17161a]" : ""}
                 ${color === "info" ? "border-info-500" : ""}
                 ${color === "success" ? "border-success-500" : ""}
                 ${color === "warning" ? "border-warning-500" : ""}

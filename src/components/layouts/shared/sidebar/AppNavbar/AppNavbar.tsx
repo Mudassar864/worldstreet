@@ -94,7 +94,7 @@ const AppNavbarBase = ({
   );
 
   const searchIconClasses =
-    "absolute left-0 top-0 z-1 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 dark:text-muted-500 [&>svg]:peer-checked:text-primary-500 [&>svg]:peer-focus:stroke-primary-500 [&>svg]:peer-focus:text-primary-500";
+    "absolute left-0 top-0 z-1 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 dark:text-muted-500 [&>svg]:peer-checked:text-[#17161a] [&>svg]:peer-focus:stroke-primary-500 [&>svg]:peer-focus:text-[#17161a]";
 
   const mobileSearchContainerClasses = cn("w-full", {
     "flex md:hidden": isMobileSearchActive,
@@ -177,12 +177,12 @@ const AppNavbarBase = ({
                 type="button"
                 name="locales"
                 aria-label="Locales"
-                className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
+                className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-[#17161a] hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
                 onClick={() => setPanelOpen("locales", true)}
               >
                 <Icon
                   icon="iconoir:language"
-                  className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+                  className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
                 />
               </button>
             </div>
@@ -197,12 +197,12 @@ const AppNavbarBase = ({
                     type="button"
                     aria-label="Announcements"
                     name="announcements"
-                    className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-primary-500 hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
+                    className="mask mask-blob flex h-10 w-10 cursor-pointer items-center justify-center transition-all duration-300 text-muted-400 hover:text-[#17161a] hover:bg-[#17161a]/10 dark:hover:bg-[#17161a]/20 rotate-0"
                     onClick={() => setPanelOpen("announcements", true)}
                   >
                     <Icon
                       icon="ph:megaphone"
-                      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+                      className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
                     />
                   </button>
                 </div>

@@ -34,7 +34,7 @@ const OrderProductListAdmin = ({ products }) => {
                 <div className="flex items-center gap-2">
                   <Link
                     href={`/store/${product.category?.name}/${product.name}`}
-                    className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+                    className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
                   >
                     <Icon icon="lucide:arrow-right" />
                   </Link>

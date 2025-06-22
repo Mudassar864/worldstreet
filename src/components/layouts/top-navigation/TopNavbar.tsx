@@ -62,7 +62,7 @@ const TopNavbar = ({ trading, transparent }) => {
                     onClick={toggleMenuType}
                     className={`h-5 w-5 ${
                       activeMenuType === "admin"
-                        ? "text-primary-500"
+                        ? "text-[#17161a]"
                         : "text-muted-400"
                     } transition-colors duration-300 cursor-pointer`}
                   />

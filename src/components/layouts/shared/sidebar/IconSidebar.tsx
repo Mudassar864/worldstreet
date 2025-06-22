@@ -61,7 +61,7 @@ const IconSidebar: FC<IconSidebarProps> = ({ float = false }) => {
               <Logo
                 className={`${
                   float ? "mt-[-5px]" : "-mt-[5px]"
-                } h-7 w-7 text-primary-500 transition-opacity duration-300 hover:opacity-80`}
+                } h-7 w-7 text-[#17161a] transition-opacity duration-300 hover:opacity-80`}
               />
             </Link>
           </li>

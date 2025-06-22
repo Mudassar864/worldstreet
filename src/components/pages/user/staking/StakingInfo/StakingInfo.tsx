@@ -36,7 +36,7 @@ const StakingInfoBase = ({
                 <Link href={`/user/wallet/deposit`}>
                   <Icon
                     icon="mdi:plus"
-                    className="h-5 w-5 hover:text-primary-500 cursor-pointer"
+                    className="h-5 w-5 hover:text-[#17161a] cursor-pointer"
                   />
                 </Link>
               </>
@@ -56,7 +56,7 @@ const StakingInfoBase = ({
           <h3 className="mb-1 text-sm leading-tight text-muted-500 dark:text-muted-400">
             {t("Interest Rate")}
           </h3>
-          <span className="text-lg font-semibold text-primary-500">
+          <span className="text-lg font-semibold text-[#17161a]">
             {interestRate}%
           </span>
         </div>

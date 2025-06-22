@@ -78,7 +78,7 @@ const SelectTransferTypeBase = () => {
             <span>{t("Having any trouble")}</span>
             <Link
               href="#"
-              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-primary-500 hover:underline focus:underline focus:outline-hidden"
+              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-[#17161a] hover:underline focus:underline focus:outline-hidden"
             >
               {t("Contact us")}
             </Link>

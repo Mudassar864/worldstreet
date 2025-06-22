@@ -43,7 +43,7 @@ const NewsBase = ({}: NewsProps) => {
   return (
     <div className="mt-8">
       <h2 className="text-2xl mb-5">
-        <span className="text-primary-500">{t("Popular")} </span>
+        <span className="text-[#17161a]">{t("Popular")} </span>
         <span className="text-muted-800 dark:text-muted-200">{t("News")}</span>
       </h2>
       <div className="space-y-4">

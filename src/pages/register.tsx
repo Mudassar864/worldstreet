@@ -192,7 +192,7 @@ export default function Register() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <Link href="/">
-                    <LogoText className="h-6 text-primary-500" />
+                    <LogoText className="h-6 text-[#17161a]" />
                   </Link>
                 </div>
                 <div className="flex items-center justify-end">
@@ -305,7 +305,7 @@ export default function Register() {
                             icon={
                               showPassword ? "lucide:eye" : "lucide:eye-off"
                             }
-                            className="w-4 h-4 text-muted-400 hover:text-primary-500 dark:text-muted-500 dark:hover:text-primary-500"
+                            className="w-4 h-4 text-muted-400 hover:text-[#17161a] dark:text-muted-500 dark:hover:text-[#17161a]"
                           />
                         </button>
                       </div>
@@ -334,7 +334,7 @@ export default function Register() {
                             {t("I accept the")}{" "}
                             <Link
                               href="/terms-and-conditions"
-                              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-primary-500 hover:underline focus:underline focus:outline-hidden"
+                              className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-[#17161a] hover:underline focus:underline focus:outline-hidden"
                             >
                               {t("Terms and Conditions")}
                             </Link>
@@ -366,7 +366,7 @@ export default function Register() {
                     <span>{t("Already have an account?")}</span>
                     <Link
                       href="/login"
-                      className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-primary-500 hover:underline focus:underline focus:outline-hidden"
+                      className="font-medium text-primary-600 underline-offset-4 transition duration-150 ease-in-out hover:text-[#17161a] hover:underline focus:underline focus:outline-hidden"
                     >
                       {t("Log in")}
                     </Link>

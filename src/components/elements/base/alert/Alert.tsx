@@ -87,7 +87,7 @@ const Alert: FC<AlertProps> = ({
         }
         ${
           color === "primary"
-            ? "border-primary-500 bg-[#17161a]/10 text-primary-500"
+            ? "border-[#17161a] bg-[#17161a]/10 text-[#17161a]"
             : ""
         }
         ${
@@ -148,7 +148,7 @@ const Alert: FC<AlertProps> = ({
                         ? "text-muted-900 dark:text-muted-100"
                         : ""
                     }
-                    ${color === "primary" ? "text-primary-500" : ""}
+                    ${color === "primary" ? "text-[#17161a]" : ""}
                     ${color === "info" ? "text-info-500" : ""}
                     ${color === "success" ? "text-success-500" : ""}
                     ${color === "warning" ? "text-warning-500" : ""}
@@ -183,7 +183,7 @@ const Alert: FC<AlertProps> = ({
                         ? "text-muted-700 dark:text-muted-200"
                         : ""
                     }
-                    ${color === "primary" ? "text-primary-500" : ""}
+                    ${color === "primary" ? "text-[#17161a]" : ""}
                     ${color === "info" ? "text-info-500" : ""}
                     ${color === "success" ? "text-success-500" : ""}
                     ${color === "warning" ? "text-warning-500" : ""}
@@ -225,7 +225,7 @@ const Alert: FC<AlertProps> = ({
             }
             ${
               color === "primary"
-                ? "text-primary-500 hover:bg-[#17161a]/20"
+                ? "text-[#17161a] hover:bg-[#17161a]/20"
                 : ""
             }
             ${color === "info" ? "text-info-500 hover:bg-info-500/20" : ""}

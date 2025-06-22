@@ -45,7 +45,7 @@ const TrackTabs: FC<TrackTabsProps> = ({ categories, shape = "smooth" }) => {
                   shape === "curved" ? "rounded-xl" : "",
                   shape === "full" ? "rounded-full" : "",
                   selected
-                    ? "bg-white text-primary-500 shadow-sm dark:bg-muted-800"
+                    ? "bg-white text-[#17161a] shadow-sm dark:bg-muted-800"
                     : "text-muted-400 hover:text-muted-500 dark:hover:text-muted-100"
                 )
               }

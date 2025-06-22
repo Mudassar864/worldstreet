@@ -8,7 +8,7 @@ const HeaderSectionBase = () => (
     <div className="flex items-center justify-between">
       <div className="flex items-center">
         <Link href="/">
-          <LogoText className="h-6 text-primary-500" />
+          <LogoText className="h-6 text-[#17161a]" />
         </Link>
       </div>
       <div className="flex items-center justify-end">

@@ -5,7 +5,7 @@ import { Icon, type IconifyIcon } from "@iconify/react";
 import { useTranslation } from "next-i18next";
 
 export const navItemBaseStyles =
-  "hover:bg-muted-100 hover:text-primary-500 dark:hover:bg-muted-800 leading-6 text-muted-500 dark:text-muted-400 relative flex cursor-pointer items-center gap-1 rounded-lg py-2.5 px-2";
+  "hover:bg-muted-100 hover:text-[#17161a] dark:hover:bg-muted-800 leading-6 text-muted-500 dark:text-muted-400 relative flex cursor-pointer items-center gap-1 rounded-lg py-2.5 px-2";
 
 interface NavbarItemProps
   extends Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, "className"> {
@@ -31,7 +31,7 @@ const NavbarItem: FC<NavbarItemProps> = ({
       href={href}
       className={`flex items-center gap-3 transition-colors duration-300 ${navItemBaseStyles} ${
         isActive
-          ? "bg-muted-100 text-primary-500 dark:bg-muted-800 lg:bg-transparent "
+          ? "bg-muted-100 text-[#17161a] dark:bg-muted-800 lg:bg-transparent "
           : ""
       }`}
       {...props}

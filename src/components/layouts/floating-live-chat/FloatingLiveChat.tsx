@@ -47,7 +47,7 @@ const FloatingLiveChat = () => {
           name="supportChatToggle"
           aria-label="Support Chat"
           type="button"
-          className={`flex items-center rounded-lg border border-muted-200 bg-white p-3 text-start shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-primary-500 dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-info-500 ${
+          className={`flex items-center rounded-lg border border-muted-200 bg-white p-3 text-start shadow-lg shadow-muted-300/30 transition-all duration-300 hover:border-[#17161a] dark:border-muted-800 dark:bg-muted-950 dark:shadow-muted-800/30 dark:hover:border-info-500 ${
             open
               ? "pointer-events-none translate-y-full opacity-0"
               : "pointer-events-auto translate-y-0 opacity-100"

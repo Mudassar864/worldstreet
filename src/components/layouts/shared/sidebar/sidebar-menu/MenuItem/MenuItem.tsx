@@ -50,7 +50,7 @@ const MenuItemBase = ({
   // Active state class determination
   const activeStateClass = () =>
     isActive || active
-      ? `${collapse ? "text-white" : "text-primary-500 dark:text-primary-400"}`
+      ? `${collapse ? "text-white" : "text-[#17161a] dark:text-primary-400"}`
       : `${
           collapse
             ? "text-white/70 group-hover/menu-item:text-white dark:group-hover/menu-item:text-muted-200"
@@ -99,7 +99,7 @@ const MenuItemBase = ({
   return (
     <li
       className={`${
-        isActive || active ? (collapse ? "text-white" : "text-primary-500") : ""
+        isActive || active ? (collapse ? "text-white" : "text-[#17161a]") : ""
       }`}
     >
       <button className={menuItemClass} onClick={menuToggle}>

@@ -55,7 +55,7 @@ const AccountDropdownBase = () => {
       >
         <Icon
           icon="ph:wallet"
-          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-primary-500"
+          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-[#17161a]"
         />
         <div className="option-content flex flex-col">
           <span className="block font-sans text-sm font-medium leading-tight text-muted-800 dark:text-muted-100">
@@ -72,7 +72,7 @@ const AccountDropdownBase = () => {
       >
         <Icon
           icon="ph:user-circle-duotone"
-          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-primary-500"
+          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-[#17161a]"
         />
         <div className="option-content flex flex-col">
           <span className="block font-sans text-sm font-medium leading-tight text-muted-800 dark:text-muted-100">
@@ -90,7 +90,7 @@ const AccountDropdownBase = () => {
       >
         <Icon
           icon="carbon:api"
-          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-primary-500"
+          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-[#17161a]"
         />
         <div className="option-content flex flex-col">
           <span className="block font-sans text-sm font-medium leading-tight text-muted-800 dark:text-muted-100">
@@ -110,7 +110,7 @@ const AccountDropdownBase = () => {
       >
         <Icon
           icon="ph:lock-duotone"
-          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-primary-500"
+          className="h-5 w-5 stroke-muted-400 text-muted-400 transition-colors duration-300 dark:group-hover:stroke-primary-500 dark:group-hover:text-[#17161a]"
         />
         <span className="option-content flex flex-col">
           <span className="block font-sans text-sm font-medium leading-tight text-muted-800 dark:text-muted-100">

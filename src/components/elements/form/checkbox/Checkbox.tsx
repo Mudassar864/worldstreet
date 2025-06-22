@@ -30,7 +30,7 @@ const Checkbox: FC<CheckboxProps> = ({
           ${shape === "smooth" ? "rounded-md" : ""} 
           ${shape === "curved" ? "rounded-lg" : ""} 
           ${shape === "full" ? "rounded-full" : ""}
-          ${color === "primary" ? "focus-within:border-primary-500/20" : ""}
+          ${color === "primary" ? "focus-within:border-[#17161a]/20" : ""}
           ${color === "info" ? "focus-within:border-info-500/20" : ""}
           ${color === "success" ? "focus-within:border-success-500/20" : ""}
           ${color === "warning" ? "focus-within:border-warning-500/20" : ""}

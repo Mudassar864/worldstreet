@@ -70,7 +70,7 @@ const TokenInitialOfferingDashboard: React.FC<Props> = ({
           }))}
           title={
             <>
-              <span className="text-primary-500">
+              <span className="text-[#17161a]">
                 {t("Initial Coin Offering")}
               </span>
               <br />
@@ -112,7 +112,7 @@ const TokenInitialOfferingDashboard: React.FC<Props> = ({
 
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <h2 className="text-2xl">
-          <span className="text-primary-500">{t("Popular")} </span>
+          <span className="text-[#17161a]">{t("Popular")} </span>
           <span className="text-muted-800 dark:text-muted-200">
             {t("Projects")}
           </span>
@@ -141,7 +141,7 @@ const TokenInitialOfferingDashboard: React.FC<Props> = ({
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {filteredProjects.map((project) => (
             <Link key={project.id} href={`/ico/project/${project.id}`}>
-              <Card className="col-span-1 group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-primary-500 dark:hover:border-primary-400">
+              <Card className="col-span-1 group relative w-full h-full p-3 hover:shadow-lg cursor-pointer hover:border-[#17161a] dark:hover:border-primary-400">
                 <div className="relative w-full h-[200px] overflow-hidden rounded-lg">
                   <MashImage
                     src={project.image}
@@ -151,7 +151,7 @@ const TokenInitialOfferingDashboard: React.FC<Props> = ({
                   />
                 </div>
                 <div className="p-2">
-                  <h3 className="text-lg font-semibold text-primary-500 dark:text-primary-400">
+                  <h3 className="text-lg font-semibold text-[#17161a] dark:text-primary-400">
                     {project.name}
                   </h3>
                   <div className="flex flex-col gap-1 text-xs">

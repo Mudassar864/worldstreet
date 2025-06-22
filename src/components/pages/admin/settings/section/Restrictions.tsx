@@ -138,7 +138,7 @@ const RestrictionsSection = ({
                       )}{" "}
                       <Link
                         href="/admin/crm/kyc/template"
-                        className="text-primary-500 underline"
+                        className="text-[#17161a] underline"
                       >
                         {t("KYC Templates")}
                       </Link>

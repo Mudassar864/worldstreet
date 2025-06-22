@@ -154,7 +154,7 @@ const OfferDetails: React.FC<Props> = ({ token: initialToken, error }) => {
     <Layout title={`${token?.name} Details`} color="muted">
       <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <h2 className="text-2xl">
-          <span className="text-primary-500">{token?.name} </span>
+          <span className="text-[#17161a]">{token?.name} </span>
           <span className="text-muted-800 dark:text-muted-200">
             {t("Details")}
           </span>
@@ -217,7 +217,7 @@ const OfferDetails: React.FC<Props> = ({ token: initialToken, error }) => {
                   href={token?.project.website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary-500"
+                  className="text-[#17161a]"
                 >
                   {token?.project.website}
                 </a>

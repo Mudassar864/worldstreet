@@ -17,7 +17,7 @@ const TicketStatsBase = ({}: TicketStatsProps) => {
                 className={`appearance-none border-b-2 py-4 text-sm transition-colors duration-300
               ${
                 activeTab === "overview"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-500 dark:text-muted-600 dark:hover:text-muted-300"
               }
             `}
@@ -30,7 +30,7 @@ const TicketStatsBase = ({}: TicketStatsProps) => {
                 className={`appearance-none border-b-2 py-4 text-sm transition-colors duration-300
               ${
                 activeTab === "severity"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-500 dark:text-muted-600 dark:hover:text-muted-300"
               }
             `}
@@ -43,7 +43,7 @@ const TicketStatsBase = ({}: TicketStatsProps) => {
                 className={`appearance-none border-b-2 py-4 text-sm transition-colors duration-300
               ${
                 activeTab === "statistics"
-                  ? "border-primary-500 text-muted-800 dark:text-muted-100"
+                  ? "border-[#17161a] text-muted-800 dark:text-muted-100"
                   : "border-transparent text-muted-400 hover:text-muted-500 dark:text-muted-600 dark:hover:text-muted-300"
               }
             `}

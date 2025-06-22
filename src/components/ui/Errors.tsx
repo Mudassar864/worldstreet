@@ -30,7 +30,7 @@ export const NotFound = ({
         )}
         <a
           href={link || "/"}
-          className="text-primary-500 hover:underline mt-6 inline-block"
+          className="text-[#17161a] hover:underline mt-6 inline-block"
         >
           {t(linkTitle || "Go Back")}
         </a>
@@ -60,7 +60,7 @@ export const ErrorPage = ({
         )}
         <a
           href={link || "/"}
-          className="text-primary-500 hover:underline mt-6 inline-block"
+          className="text-[#17161a] hover:underline mt-6 inline-block"
         >
           {t(linkTitle || "Go Back")}
         </a>

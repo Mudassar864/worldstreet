@@ -76,7 +76,7 @@ const pickerStyles = cva(
         isToday: false,
         isSameMonth: true,
         className:
-          "text-center hover:bg-muted-100 hover:text-primary-500 dark:hover:bg-muted-800 dark:disabled:hover:bg-transparent disabled:text-muted-300 dark:disabled:text-muted-700 disabled:cursor-not-allowed",
+          "text-center hover:bg-muted-100 hover:text-[#17161a] dark:hover:bg-muted-800 dark:disabled:hover:bg-transparent disabled:text-muted-300 dark:disabled:text-muted-700 disabled:cursor-not-allowed",
       },
       {
         isSelected: false,

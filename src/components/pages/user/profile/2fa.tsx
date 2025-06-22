@@ -220,9 +220,9 @@ const TwoFactorBase = () => {
         <div className="flex flex-col items-center space-y-4">
           <Icon
             icon="mdi:loading"
-            className="h-12 w-12 animate-spin text-primary-500"
+            className="h-12 w-12 animate-spin text-[#17161a]"
           />
-          <p className="text-xl text-primary-500">{t("Generating OTP...")}</p>
+          <p className="text-xl text-[#17161a]">{t("Generating OTP...")}</p>
         </div>
       </div>
     );
@@ -368,14 +368,14 @@ const TwoFactorBase = () => {
 
                     <div className="text-center flex justify-between items-center mt-10">
                       <Link
-                        className="text-sm text-muted-400 underline-offset-4 hover:text-primary-500 hover:underline flex items-center justify-center"
+                        className="text-sm text-muted-400 underline-offset-4 hover:text-[#17161a] hover:underline flex items-center justify-center"
                         href="/user/profile"
                       >
                         <Icon icon="mdi:cancel" className="mr-2" />
                         {t("Cancel")}
                       </Link>
                       <div
-                        className="text-sm text-muted-400 underline-offset-4 hover:text-primary-500 hover:underline flex items-center justify-center cursor-pointer"
+                        className="text-sm text-muted-400 underline-offset-4 hover:text-[#17161a] hover:underline flex items-center justify-center cursor-pointer"
                         onClick={() => {
                           setStep(1);
                           setOtp("");

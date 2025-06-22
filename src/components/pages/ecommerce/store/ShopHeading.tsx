@@ -23,7 +23,7 @@ const ShopHeading: React.FC<Props> = ({
       }))}
       title={
         <>
-          <span className="text-primary-500">
+          <span className="text-[#17161a]">
             {t("Welcome to our Online Store")}
           </span>
           <br />

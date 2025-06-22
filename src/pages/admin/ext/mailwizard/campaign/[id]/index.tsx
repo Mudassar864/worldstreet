@@ -261,9 +261,9 @@ const CampaignDetails = () => {
         <div className="flex flex-col items-center space-y-4">
           <Icon
             icon="mdi:loading"
-            className="h-12 w-12 animate-spin text-primary-500"
+            className="h-12 w-12 animate-spin text-[#17161a]"
           />
-          <p className="text-xl text-primary-500">{t("Loading Campaign...")}</p>
+          <p className="text-xl text-[#17161a]">{t("Loading Campaign...")}</p>
         </div>
       </div>
     );

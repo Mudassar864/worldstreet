@@ -57,11 +57,11 @@ const PostsGridBase = ({ posts }: { posts: BlogPost[] }) => {
                   <Link key={post.id} href={`/blog/post/${post.slug}`}>
                     <Card
                       color={"contrast"}
-                      className={`relative w-full h-full p-2 hover:shadow-lg cursor-pointer ${className} hover:border-primary-500 transition-all duration-300 dark:hover:border-primary-400`}
+                      className={`relative w-full h-full p-2 hover:shadow-lg cursor-pointer ${className} hover:border-[#17161a] transition-all duration-300 dark:hover:border-primary-400`}
                     >
                       {header}
                       <div className="p-2">
-                        <h3 className="text-lg font-semibold text-primary-500 dark:text-primary-400">
+                        <h3 className="text-lg font-semibold text-[#17161a] dark:text-primary-400">
                           {post.title}
                         </h3>
                         <div className="flex flex-col gap-1 text-xs">

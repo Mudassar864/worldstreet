@@ -42,7 +42,7 @@ const AffiliateDashboard: React.FC<Props> = ({ conditions, error }) => {
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-2xl">
-            <span className="text-primary-500">{t("Affiliate")}</span>{" "}
+            <span className="text-[#17161a]">{t("Affiliate")}</span>{" "}
             <span className="text-muted-800 dark:text-muted-200">
               {t("Program")}
             </span>

@@ -42,7 +42,7 @@ const TabButton = ({ label, activeTab, setActiveTab, tabKey }) => {
       className={`shrink-0 border-b-2 px-6 pb-4 text-sm transition-colors duration-300
                   ${
                     isActive
-                      ? "border-primary-500 text-primary-500 dark:text-primary-400 dark:border-primary-400"
+                      ? "border-[#17161a] text-[#17161a] dark:text-primary-400 dark:border-primary-400"
                       : "border-transparent text-muted"
                   }
                 `}

@@ -94,7 +94,7 @@ export const Viewport: React.FC<{ children?: React.ReactNode }> = ({
                 href="/"
                 className="relative flex h-10 w-10 mt-2 items-center justify-center text-sm no-underline transition-all duration-100 ease-linear"
               >
-                <Logo className="-mt-[5px] h-7 w-7 text-primary-500 transition-opacity duration-300 hover:opacity-80" />
+                <Logo className="-mt-[5px] h-7 w-7 text-[#17161a] transition-opacity duration-300 hover:opacity-80" />
               </Link>
             </li>
             {/* <BuilderSidebarIcon
@@ -115,7 +115,7 @@ export const Viewport: React.FC<{ children?: React.ReactNode }> = ({
             >
               <Icon
                 icon={"mdi:chevron-left"}
-                className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-primary-500 hover:group-dark:text-primary-500"
+                className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-[#17161a] hover:group-dark:text-[#17161a]"
               />
             </div>
             <div className="side-icon-inner mask mask-blob flex h-[35px] w-[35px] items-center justify-center transition-colors duration-300 bg-muted-200 dark:bg-muted-800 cursor-pointer group hover:bg-muted-500/10 dark:hover:bg-muted-500/20">
@@ -134,7 +134,7 @@ export const Viewport: React.FC<{ children?: React.ReactNode }> = ({
                       ? "solar:eye-bold-duotone"
                       : "solar:pen-2-bold-duotone"
                   }
-                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-primary-500 hover:group-dark:text-primary-500"
+                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-[#17161a] hover:group-dark:text-[#17161a]"
                 />
               </div>
             </Tooltip>
@@ -147,7 +147,7 @@ export const Viewport: React.FC<{ children?: React.ReactNode }> = ({
               >
                 <Icon
                   icon={"solar:check-read-line-duotone"}
-                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-primary-500 hover:group-dark:text-primary-500"
+                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-[#17161a] hover:group-dark:text-[#17161a]"
                 />
               </div>
             </Tooltip>
@@ -160,7 +160,7 @@ export const Viewport: React.FC<{ children?: React.ReactNode }> = ({
               >
                 <Icon
                   icon="solar:cloud-upload-line-duotone"
-                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-primary-500 hover:group-dark:text-primary-500"
+                  className="relative h-7 w-7 text-muted-400 transition-colors duration-300 group-hover/side-icon:text-muted-500 group-hover:text-[#17161a] hover:group-dark:text-[#17161a]"
                 />
               </div>
             </Tooltip>

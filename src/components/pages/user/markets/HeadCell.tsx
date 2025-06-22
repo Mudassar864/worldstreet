@@ -44,7 +44,7 @@ const HeadCell: FC<HeadCellProps> = ({
             stroke="currentColor"
             className={`h-2.5 w-2.5 cursor-pointer fill-none ${
               sorted.rule === "asc" && isSorted
-                ? "text-primary-500"
+                ? "text-[#17161a]"
                 : "text-muted-400"
             }`}
           >
@@ -68,7 +68,7 @@ const HeadCell: FC<HeadCellProps> = ({
             stroke="currentColor"
             className={`h-2.5 w-2.5 cursor-pointer fill-none ${
               sorted.rule === "desc" && isSorted
-                ? "text-primary-500"
+                ? "text-[#17161a]"
                 : "text-muted-400"
             }`}
           >

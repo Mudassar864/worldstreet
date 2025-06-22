@@ -84,7 +84,7 @@ const Dropdown: FC<DropdownProps> = ({
           ) : (
             <Icon
               icon={toggleIcon as IconifyIcon | string}
-              className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-primary-500"
+              className="h-4 w-4 text-muted-500 transition-colors duration-300 group-hover:text-[#17161a]"
             />
           )}
         </button>
@@ -123,7 +123,7 @@ const Dropdown: FC<DropdownProps> = ({
               {showAll ? (
                 <a
                   href={showAll}
-                  className="cursor-pointer font-sans text-xs font-semibold text-primary-500 underline-offset-4 hover:underline"
+                  className="cursor-pointer font-sans text-xs font-semibold text-[#17161a] underline-offset-4 hover:underline"
                 >
                   {t("View all")}
                 </a>

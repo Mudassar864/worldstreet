@@ -20,7 +20,7 @@ const StakeLogInfoBase = ({ log }) => {
           <h3 className="mb-1 text-sm leading-tight text-muted-500 dark:text-muted-400">
             {t("Interest Rate")}
           </h3>
-          <span className="text-lg font-semibold text-primary-500">
+          <span className="text-lg font-semibold text-[#17161a]">
             {interestRate}%
           </span>
         </div>

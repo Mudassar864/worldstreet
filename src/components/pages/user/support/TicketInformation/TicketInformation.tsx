@@ -25,7 +25,7 @@ const TicketInformationBase = () => {
     REPLIED: {
       icon: "ph:circle-duotone",
       className: "bg-[#17161a]/10",
-      iconClasses: "text-primary-500",
+      iconClasses: "text-[#17161a]",
     },
     CLOSED: {
       icon: "ph:check-circle-duotone",
@@ -52,7 +52,7 @@ const TicketInformationBase = () => {
               <IconBox
                 icon="ph:credit-card-duotone"
                 className="h-8! w-8! rounded-lg! bg-[#17161a]/10"
-                iconClasses="h-5! w-5! text-primary-500"
+                iconClasses="h-5! w-5! text-[#17161a]"
               />
             }
             title={t("Ticket ID")}
@@ -89,7 +89,7 @@ const TicketInformationBase = () => {
               itemAction={
                 <Link
                   href={`mailto:${ticket?.user?.email}`}
-                  className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-primary-500"
+                  className="cursor-pointer text-muted-400 transition-colors duration-300 hover:text-[#17161a]"
                 >
                   <Icon icon="lucide:arrow-right" />
                 </Link>

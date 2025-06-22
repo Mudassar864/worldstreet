@@ -85,7 +85,7 @@ export default function RecoverPassword() {
                       </div>
                       <div className="text-center">
                         <Link
-                          className="text-sm text-muted-400 underline-offset-4 hover:text-primary-500 hover:underline"
+                          className="text-sm text-muted-400 underline-offset-4 hover:text-[#17161a] hover:underline"
                           href="/login"
                         >{`${t("Back to Login")}`}</Link>
                       </div>

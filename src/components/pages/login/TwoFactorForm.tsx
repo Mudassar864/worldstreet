@@ -57,7 +57,7 @@ const TwoFactorFormBase = () => {
               className={`text-sm flex items-center justify-center gap-1 ${
                 resendCooldown > 0 || loading
                   ? "text-muted-400 dark:text-muted-600 cursor-not-allowed"
-                  : "text-primary-600 cursor-pointer hover:text-primary-500"
+                  : "text-primary-600 cursor-pointer hover:text-[#17161a]"
               }`}
               onClick={() => {
                 if (resendCooldown > 0 || loading) return;

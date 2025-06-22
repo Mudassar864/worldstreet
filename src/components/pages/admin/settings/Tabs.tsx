@@ -35,7 +35,7 @@ const Tab: React.FC<TabProps> = ({
       className={`shrink-0 border-b-2 px-6 py-2 text-sm transition-colors duration-300
           ${
             activeTab === tabName
-              ? "border-primary-500 text-primary-500 dark:text-primary-400"
+              ? "border-[#17161a] text-[#17161a] dark:text-primary-400"
               : "border-transparent text-muted"
           }
         `}

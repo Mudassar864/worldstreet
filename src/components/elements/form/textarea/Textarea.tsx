@@ -64,7 +64,7 @@ const Textarea: FC<TextAreaProps> = ({
         ></textarea>
         {!!loading ? (
           <div
-            className={`absolute right-0 top-0 z-0 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-primary-500 dark:text-muted-500 
+            className={`absolute right-0 top-0 z-0 flex h-10 w-10 items-center justify-center text-muted-400 transition-colors duration-300 peer-focus-visible:text-[#17161a] dark:text-muted-500 
           `}
           >
             <Loader

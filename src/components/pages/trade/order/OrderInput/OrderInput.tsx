@@ -143,14 +143,14 @@ const OrderInputBase = ({ type, side }) => {
               >
                 <Icon
                   icon="mdi:plus"
-                  className="h-3 w-3 text-primary-500 cursor-pointer border border-primary-500 rounded-full hover:bg-[#17161a] hover:text-white"
+                  className="h-3 w-3 text-[#17161a] cursor-pointer border border-[#17161a] rounded-full hover:bg-[#17161a] hover:text-white"
                 />
               </Link>
             </Tooltip>
           </div>
           {type !== "MARKET" && (
             <span
-              className="text-xs text-primary-500 dark:text-primary-400 cursor-pointer"
+              className="text-xs text-[#17161a] dark:text-primary-400 cursor-pointer"
               onClick={() => setPrice(side === "BUY" ? ask : bid)}
             >
               {t("Best")} {side === "BUY" ? "Ask" : "Bid"}
