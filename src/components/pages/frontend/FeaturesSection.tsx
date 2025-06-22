@@ -14,7 +14,7 @@ const FeaturesSection = () => {
       ),
       icon: (
         <svg
-          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
+          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-[#17161a] text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -41,7 +41,7 @@ const FeaturesSection = () => {
       ),
       icon: (
         <svg
-          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
+          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-[#17161a] text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -65,7 +65,7 @@ const FeaturesSection = () => {
       ),
       icon: (
         <svg
-          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
+          className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-[#17161a] text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -123,7 +123,7 @@ const FeaturesSection = () => {
                   <span className="flex">
                     {feature.icon}
                     <span className="grow ms-6">
-                      <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200">
+                      <span className="block text-lg font-semibold hs-tab-active:text-[#17161a] text-muted-800 dark:hs-tab-active:text-blue-500 dark:text-muted-200">
                         {feature.title}
                       </span>
                       <span className="block mt-1 text-muted-800 dark:hs-tab-active:text-muted-200 dark:text-muted-200">

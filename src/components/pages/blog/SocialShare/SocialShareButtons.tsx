@@ -12,7 +12,7 @@ const SocialShareButtons = ({ url }: { url: string }) => {
     <div className="flex gap-3">
       {/* Facebook */}
       <FacebookShareButton url={url}>
-        <div className="flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full cursor-pointer hover:bg-blue-700 transition duration-200">
+        <div className="flex items-center justify-center w-8 h-8 bg-[#17161a] rounded-full cursor-pointer hover:bg-blue-700 transition duration-200">
           <Icon
             icon={"akar-icons:facebook-fill"}
             className="text-white w-5 h-5"

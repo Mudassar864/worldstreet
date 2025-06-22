@@ -195,6 +195,12 @@ const HeroSection = () => {
                       {t("Sign-up on Worldstreet")}
                     </div>
                   </Link>
+                  <Link href="/#" className="p-[3px] relative">
+                    <div className="absolute inset-0 bg-linear-to-r from-black-500 to-white-500 rounded-lg" />
+                    <div className="px-8 py-[7px] bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent text-md">
+                      Visit Community
+                    </div>
+                  </Link>
                 </motion.div>
               </>
             )}

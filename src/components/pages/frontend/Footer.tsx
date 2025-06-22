@@ -32,7 +32,7 @@ const FooterSection: React.FC = () => {
             <p className="mt-3 text-xs sm:text-sm text-gray-600 dark:text-neutral-400">
               {t(footerData.footerNote)}{" "}
               <Link
-                className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
+                className="inline-flex items-center gap-x-1.5 text-[#17161a] decoration-2 hover:underline font-medium dark:text-blue-500"
                 href={footerData.footerNoteLink}
               >
                 {t(footerData.footerNoteText)}
@@ -74,7 +74,7 @@ const FooterSection: React.FC = () => {
                 <Link
                   href={socialLinks.facebook}
                   aria-label="Facebook"
-                  className="text-gray-600 hover:text-blue-600 dark:text-neutral-400 dark:hover:text-blue-500"
+                  className="text-gray-600 hover:text-[#17161a] dark:text-neutral-400 dark:hover:text-blue-500"
                 >
                   <Icon icon="akar-icons:facebook-fill" className="w-5 h-5" />
                 </Link>
@@ -101,7 +101,7 @@ const FooterSection: React.FC = () => {
                 <Link
                   href={socialLinks.linkedin}
                   aria-label="LinkedIn"
-                  className="text-gray-600 hover:text-blue-700 dark:text-neutral-400 dark:hover:text-blue-600"
+                  className="text-gray-600 hover:text-blue-700 dark:text-neutral-400 dark:hover:text-[#17161a]"
                 >
                   <Icon icon="akar-icons:linkedin-fill" className="w-5 h-5" />
                 </Link>

@@ -219,7 +219,7 @@ const CookieBanner: React.FC = () => {
           <p className="text-sm text-gray-800 dark:text-neutral-200">
             {t("By browsing this website, you accept our")}{" "}
             <Link
-              className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-500"
+              className="inline-flex items-center gap-x-1.5 text-[#17161a] decoration-2 hover:underline font-medium dark:text-blue-500"
               href="/cookies"
             >
               {t("Cookies Policy")}

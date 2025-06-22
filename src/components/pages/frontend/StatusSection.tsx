@@ -48,7 +48,7 @@ const StatusSection = () => {
           <div className="lg:col-span-4">
             <div className="lg:pe-6 xl:pe-12 flex flex-col items-center lg:items-start">
               <motion.p
-                className="text-6xl font-bold leading-10 text-blue-600"
+                className="text-6xl font-bold leading-10 text-[#17161a]"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
@@ -85,7 +85,7 @@ const StatusSection = () => {
                     delay: index * 0.2,
                   }}
                 >
-                  <p className="text-3xl font-semibold text-blue-600">
+                  <p className="text-3xl font-semibold text-[#17161a]">
                     {stat.main}
                   </p>
                   <p className="mt-1 text-gray-500 dark:text-neutral-500">
